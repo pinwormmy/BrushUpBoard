@@ -7,12 +7,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
-public class HomeController {
-	
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Model model) {
-				
-		return "home";
-	}
+@RequestMapping("/*")
+public class BoardController {
 
+	@RequestMapping(value = "/write")
+	public String write() {
+				
+		System.out.println("대체 뭐가 문제?");
+		return "write";
+	}
+	
 }
