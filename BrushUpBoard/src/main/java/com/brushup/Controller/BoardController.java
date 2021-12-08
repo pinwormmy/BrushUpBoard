@@ -1,4 +1,4 @@
-package com.brushup.board;
+package com.brushup.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
