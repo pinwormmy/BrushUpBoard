@@ -13,25 +13,32 @@
 
 <P>최대한 구글링 자제하면서 재구현하기.</P>
 <div>코드 한줄 한줄 다 이해하고 진행~ </div>
+<hr>
 
 <table>
-	<tr>
-		<th>글번호</th>
-		<th>제목</th>
-		<th>작성자</th>
-		<th>작성일자</th>
-		<th>조회수</th>
-	</tr>
-	<tb>
-		<td>글번호</td>
-		<td>제목</td>
-		<td>작성자명</td>
-		<td>언제썼는지</td>
-		<td>인기는?</td>
-	</tb>
+	<thead>
+		<tr>
+			<th>글번호</th>
+			<th>제목</th>
+			<th>작성자</th>
+			<th>작성일자</th>
+			<th>조회수</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>뺣</td>
+			<td>제목 테스트 꿀꿀</td>
+			<td>아디</td>
+			<td>글쓴시간</td>
+			<td>인기는?</td>
+		</tr>
+	</tbody>
 </table>
 
-<a type="button" href="/write" >글쓰기</a>
+<hr>
+
+<button type="button" onclick="location.href='/write'">글쓰기</button>
 
 </body>
 </html>

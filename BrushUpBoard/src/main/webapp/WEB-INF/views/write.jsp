@@ -11,6 +11,8 @@
 		제목 <input type="text" name="postTitle"><br>
 		작성자 <input type="text" name="writer"><br>
 		내용 <input type="text" name="postContent"><br>
+		<input type="button" value="게시하기">
+		<button type="button" onclick="location.href='/'">글목록</button>
 	</form>
 
 </body>
