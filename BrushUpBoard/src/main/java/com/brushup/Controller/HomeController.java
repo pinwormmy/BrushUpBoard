@@ -13,6 +13,7 @@ public class HomeController {
 	public String home(Model model) {
 		
 		System.out.println("못찾나?");
+		System.out.println(org.springframework.core.SpringVersion.getVersion());
 	
 		return "home";
 	}
