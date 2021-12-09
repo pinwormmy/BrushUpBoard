@@ -11,6 +11,8 @@ public class HomeController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Model model) {
+		
+		System.out.println("못찾나?");
 	
 		return "home";
 	}
