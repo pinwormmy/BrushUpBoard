@@ -12,7 +12,7 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Model model) {
 		
-		System.out.println("못찾나?");
+		System.out.println("이 프로젝트 버리고 새로 쓴다 복사할거만 해서 옮기기");
 		System.out.println(org.springframework.core.SpringVersion.getVersion());
 	
 		return "home";
